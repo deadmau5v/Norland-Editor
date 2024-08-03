@@ -1,15 +1,16 @@
-# README
+# Norland 配置编辑器
 
-## About
+## 介绍
 
-This template comes with Vite, React, TypeScript, TailwindCSS and shadcn/ui.
+一个可以可视化编辑[《Norland》](https://store.steampowered.com/app/1857090/Norland/)游戏配置的工具
 
-Built with `Wails v2.5.1` and [shadcn's CLI](https://ui.shadcn.com/docs/cli)
+将生成的配置复制到游戏目录下的 `gameplay_variables.json` 中
 
-### Using the Template
-```console
-wails init -n project-name -t https://github.com/Mahcks/wails-vite-react-tailwind-shadcnui-ts
-```
+![alt text](image.png)
+
+
+### 构建
+
 
 ```console
 cd frontend
@@ -19,22 +20,10 @@ cd frontend
 npm install
 ```
 
-### Installing Components
-To install components, use shadcn's CLI tool to install
-
-More info here: https://ui.shadcn.com/docs/cli#add
-
-Example:
-```console
-npx shadcn-ui@latest add [component]
+```
+cd ..
 ```
 
-## Live Development
-
-To run in live development mode, run `wails dev` in the project directory. In another terminal, go into the `frontend`
-directory and run `npm run dev`. The frontend dev server will run on http://localhost:34115. Connect to this in your
-browser and connect to your application.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+```console
+wails build
+```

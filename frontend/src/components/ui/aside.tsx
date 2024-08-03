@@ -8,7 +8,7 @@ const cn = (...classes: string[]) => {
 };
 
 function openGithub() {
-    BrowserOpenURL("https://github.com/deadmau5v/");
+    BrowserOpenURL("https://github.com/deadmau5v/Norland-Editor");
 }
 
 export default function Aside() {
