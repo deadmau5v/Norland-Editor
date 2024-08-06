@@ -1,7 +1,6 @@
 package main
 
 import (
-	"Norland-Editor/soup"
 	"embed"
 	"log"
 
@@ -47,7 +46,6 @@ func main() {
 		WindowStartState: options.Normal,
 		Bind: []interface{}{
 			app,
-			soup.New(),
 		},
 		Frameless: true,
 

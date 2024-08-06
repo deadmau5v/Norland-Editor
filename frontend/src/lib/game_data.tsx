@@ -171,7 +171,7 @@ const orgData = {
 	"__desc__trait": "特性",
 	"__type__trait": "object",
 	"trait": {
-		"__desc__insightful_call_chance": "洞察呼叫机率",
+		"__desc__insightful_call_chance": "顿悟概率",
 		"__type__insightful_call_chance": "number",
 		"insightful_call_chance": 0.10000000149011612
 	},
@@ -208,7 +208,7 @@ const orgData = {
 		"__type__zoom_threshold": "number",
 		"zoom_threshold": 0.21699999272823334
 	},
-	"__desc__gallows": "绞刑架",
+	"__desc__gallows": "行刑台",
 	"__type__gallows": "object",
 	"gallows": {
 		"__desc__punishment_watch_radius": "观察半径",
@@ -285,14 +285,14 @@ const orgData = {
 			"performance_bonus": 1.7999999523162842
 		}
 	},
-	"__desc__chancellery": "文书处",
+	"__desc__chancellery": "官邸",
 	"__type__chancellery": "object",
 	"chancellery": {
-		"__desc__charge_paper_cost": "文书费用",
+		"__desc__charge_paper_cost": "官邸消耗纸张数",
 		"__type__charge_paper_cost": "number",
 		"charge_paper_cost": 9
 	},
-	"__desc__executor_work": "执行工作",
+	"__desc__executor_work": "执刑者",
 	"__type__executor_work": "object",
 	"executor_work": {
 		"__desc__intimidate_talk_minutes": "恐吓谈话时长（分钟）",
@@ -308,7 +308,7 @@ const orgData = {
 		"__type__witness_count": "number",
 		"witness_count": 2
 	},
-	"__desc__wolves": "狼",
+	"__desc__wolves": "饿狼",
 	"__type__wolves": "object",
 	"wolves": {
 		"__desc__max_distance_in_cells": "最大活动范围",
@@ -349,27 +349,27 @@ const orgData = {
 			"__desc__command": "指挥",
 			"__type__command": "number",
 			"command": 2,
-			"__desc__education": "教育",
+			"__desc__education": "教导",
 			"__type__education": "number",
 			"education": 4,
-			"__desc__negotiation": "谈判",
+			"__desc__negotiation": "贸易",
 			"__type__negotiation": "number",
 			"negotiation": 6,
 			"__desc__manners": "礼仪",
 			"__type__manners": "number",
 			"manners": 2,
-			"__desc__oratory": "演讲",
+			"__desc__oratory": "游说",
 			"__type__oratory": "number",
 			"oratory": 4,
 			"__desc__management": "管理",
 			"__type__management": "number",
 			"management": 1,
-			"__desc__knowledge": "知识",
+			"__desc__knowledge": "智力",
 			"__type__knowledge": "number",
 			"knowledge": 1
 		}
 	},
-	"__desc__bush": "灌木丛",
+	"__desc__bush": "灌木",
 	"__type__bush": "object",
 	"bush": {
 		"__desc__collection_points": "采集点数",
@@ -382,22 +382,22 @@ const orgData = {
 		"__type__renew_percent": "number",
 		"renew_percent": 0.10000000149011612
 	},
-	"__desc__render": "渲染",
+	"__desc__render": "渲染选项（不常用）",
 	"__type__render": "object",
 	"render": {
-		"__desc__border_offset": "边界偏移量",
+		"__desc__border_offset": "Border Offset",
 		"__type__border_offset": "number",
 		"border_offset": 8,
-		"__desc__quest_token_size": "任务代币大小",
+		"__desc__quest_token_size": "Quest Token Size",
 		"__type__quest_token_size": "number",
 		"quest_token_size": 72.726997375488281,
-		"__desc__border_width": "边界宽度",
+		"__desc__border_width": "Border Width",
 		"__type__border_width": "number",
 		"border_width": 52,
-		"__desc__border_radius_factor": "边界半径因子",
+		"__desc__border_radius_factor": "Border Radius Factor",
 		"__type__border_radius_factor": "number",
 		"border_radius_factor": 2.4000000953674316,
-		"__desc__quest_avatar_scale": "任务头像缩放比例",
+		"__desc__quest_avatar_scale": "Quest Avatar Scale",
 		"__type__quest_avatar_scale": "number",
 		"quest_avatar_scale": 0.55000001192092896
 	},
@@ -408,13 +408,13 @@ const orgData = {
 		"__type__skill_different_penalty": "number",
 		"skill_different_penalty": 3
 	},
-	"__desc__loyalist": "忠诚者",
+	"__desc__loyalist": "忠诚派",
 	"__type__loyalist": "object",
 	"loyalist": {
-		"__desc__end_chance": "结束的机率",
+		"__desc__end_chance": "退出忠诚派的机率",
 		"__type__end_chance": "number",
 		"end_chance": 0.10000000149011612,
-		"__desc__become_chance": "成为的机率",
+		"__desc__become_chance": "成为忠诚派的机率",
 		"__type__become_chance": "number",
 		"become_chance": 0.10000000149011612
 	},
@@ -441,7 +441,7 @@ const orgData = {
 		"__type__skill_points": "number",
 		"skill_points": 0.20000000298023224
 	},
-	"__desc__farm": "农场",
+	"__desc__farm": "农田",
 	"__type__farm": "object",
 	"farm": {
 		"__desc__hop": "啤酒花",
@@ -467,10 +467,10 @@ const orgData = {
 			"__type__rye": "number",
 			"rye": 0.40000000596046448
 		},
-		"__desc__depletion": "耗尽",
+		"__desc__depletion": "肥力耗尽",
 		"__type__depletion": "object",
 		"depletion": {
-			"__desc__after_days": "耗尽天数",
+			"__desc__after_days": "肥力耗尽天数",
 			"__type__after_days": "number",
 			"after_days": 10,
 			"__desc__wood_cost_per_level": "每级所需木材成本",
@@ -487,10 +487,10 @@ const orgData = {
 			"__type__grow_cost": "number",
 			"grow_cost": 220
 		},
-		"__desc__pig": "猪",
+		"__desc__pig": "养猪场",
 		"__type__pig": "object",
 		"pig": {
-			"__desc__grow_duration": "生长期",
+			"__desc__grow_duration": "养猪周期",
 			"__type__grow_duration": "number",
 			"grow_duration": 4,
 			"__desc__capacity_per_level": "每级容量",
@@ -503,18 +503,18 @@ const orgData = {
 			"__type__charge_cost_per_level": "number",
 			"charge_cost_per_level": 50
 		},
-		"__desc__rye": "黑麦",
+		"__desc__rye": "麦子",
 		"__type__rye": "object",
 		"rye": {
-			"__desc__grow_yield": "黑麦的产量",
+			"__desc__grow_yield": "麦子的产量",
 			"__type__grow_yield": "number",
 			"grow_yield": 1000,
-			"__desc__grow_cost": "黑麦的种植成本",
+			"__desc__grow_cost": "麦子的种植成本",
 			"__type__grow_cost": "number",
 			"grow_cost": 250
 		}
 	},
-	"__desc__church": "教堂",
+	"__desc__church": "圣堂",
 	"__type__church": "object",
 	"church": {
 		"__desc__preach_conversion_factor": "传教转换因子",
@@ -543,13 +543,13 @@ const orgData = {
 		"__type__army_multiply_factor": "number",
 		"army_multiply_factor": 2
 	},
-	"__desc__dummy": "假人",
+	"__desc__dummy": "强盗",
 	"__type__dummy": "object",
 	"dummy": {
 		"__desc__leave_to_forest_chance": "离开到森林的机率",
 		"__type__leave_to_forest_chance": "number",
 		"leave_to_forest_chance": 20,
-		"__desc__thug_combat_level": "暴徒的战斗等级",
+		"__desc__thug_combat_level": "强盗的战斗等级",
 		"__type__thug_combat_level": "object",
 		"thug_combat_level": {
 			"__desc__min": "最低战斗等级",
@@ -559,7 +559,7 @@ const orgData = {
 			"__type__max": "number",
 			"max": 4
 		},
-		"__desc__join_to_thug_when_punish": "受罚时加入暴徒的机率",
+		"__desc__join_to_thug_when_punish": "受罚时加入强盗的机率",
 		"__type__join_to_thug_when_punish": "number",
 		"join_to_thug_when_punish": 1,
 		"__desc__turn_to_bandit_chance": "变为强盗的机率",
@@ -568,7 +568,7 @@ const orgData = {
 		"__desc__steal_minimal_val": "最小偷窃值",
 		"__type__steal_minimal_val": "number",
 		"steal_minimal_val": 10,
-		"__desc__criminal_days_to_thug": "成为暴徒的犯罪天数",
+		"__desc__criminal_days_to_thug": "成为强盗的犯罪天数",
 		"__type__criminal_days_to_thug": "number",
 		"criminal_days_to_thug": 2,
 		"__desc__steal_maximal_val": "最大偷窃值",
@@ -585,7 +585,7 @@ const orgData = {
 	"__desc__battle": "战斗",
 	"__type__battle": "object",
 	"battle": {
-		"__desc__skill_tickets": "技能票",
+		"__desc__skill_tickets": "行为",
 		"__type__skill_tickets": "object",
 		"skill_tickets": {
 			"__desc__change_factor": "变更因子",
@@ -598,13 +598,13 @@ const orgData = {
 			"__type__zero_factor": "number",
 			"zero_factor": 0.10000000149011612
 		},
-		"__desc__lottery_tickets": "抽奖票",
+		"__desc__lottery_tickets": "防御住的概率",
 		"__type__lottery_tickets": "object",
 		"lottery_tickets": {
-			"__desc__shield_defence_from_arrows_tanaya": "坦娅的箭矢防护抽奖券",
+			"__desc__shield_defence_from_arrows_tanaya": "塔纳亚护盾防护",
 			"__type__shield_defence_from_arrows_tanaya": "number",
 			"shield_defence_from_arrows_tanaya": 1000,
-			"__desc__shield_defence_from_arrows": "箭矢防护抽奖券",
+			"__desc__shield_defence_from_arrows": "护盾防护",
 			"__type__shield_defence_from_arrows": "number",
 			"shield_defence_from_arrows": 500
 		}
@@ -612,7 +612,7 @@ const orgData = {
 	"__desc__book": "书籍",
 	"__type__book": "object",
 	"book": {
-		"__desc__rewrite_paper_cost": "重写纸张成本",
+		"__desc__rewrite_paper_cost": "誊抄消耗的纸张成本",
 		"__type__rewrite_paper_cost": "number",
 		"rewrite_paper_cost": 3
 	},
@@ -623,43 +623,43 @@ const orgData = {
 		"__type__max_capacity": "number",
 		"max_capacity": 30
 	},
-	"__desc__punishment_mind": "惩罚心理",
+	"__desc__punishment_mind": "惩罚",
 	"__type__punishment_mind": "object",
 	"punishment_mind": {
 		"__desc__blindness": "失明",
 		"__type__blindness": "object",
 		"blindness": {
-			"__desc__strength": "强度",
+			"__desc__strength": "惩罚强度",
 			"__type__strength": "number",
 			"strength": 20,
 			"__desc__duration": "持续时间",
 			"__type__duration": "number",
 			"duration": 3
 		},
-		"__desc__execution": "执行",
+		"__desc__execution": "处决",
 		"__type__execution": "object",
 		"execution": {
-			"__desc__strength": "强度",
+			"__desc__strength": "惩罚强度",
 			"__type__strength": "number",
 			"strength": 30,
 			"__desc__duration": "持续时间",
 			"__type__duration": "number",
 			"duration": 3
 		},
-		"__desc__mask_of_shame": "羞耻面具",
+		"__desc__mask_of_shame": "耻辱面具",
 		"__type__mask_of_shame": "object",
 		"mask_of_shame": {
-			"__desc__strength": "强度",
+			"__desc__strength": "惩罚强度",
 			"__type__strength": "number",
 			"strength": 10,
 			"__desc__duration": "持续时间",
 			"__type__duration": "number",
 			"duration": 3
 		},
-		"__desc__enslavement": "奴役",
+		"__desc__enslavement": "监禁",
 		"__type__enslavement": "object",
 		"enslavement": {
-			"__desc__strength": "强度",
+			"__desc__strength": "惩罚强度",
 			"__type__strength": "number",
 			"strength": 10,
 			"__desc__duration": "持续时间",
@@ -667,7 +667,7 @@ const orgData = {
 			"duration": 3
 		}
 	},
-	"__desc__moral": "道德",
+	"__desc__moral": "士气",
 	"__type__moral": "object",
 	"moral": {
 		"__desc__leaving_to_forest": "离开到森林",
@@ -747,34 +747,34 @@ const orgData = {
 			"__type__modify": "number",
 			"modify": 15
 		},
-		"__desc__quality_of_life_high": "高生活质量的心态修改",
+		"__desc__quality_of_life_high": "高生活质量的心态影响",
 		"__type__quality_of_life_high": "object",
 		"quality_of_life_high": {
-			"__desc__modify": "修改值",
+			"__desc__modify": "影响值",
 			"__type__modify": "number",
 			"modify": 25
 		},
-		"__desc__battle_enemy_commander_dead": "敌方指挥官死亡时的心态修改",
+		"__desc__battle_enemy_commander_dead": "敌方指挥官死亡时的心态影响",
 		"__type__battle_enemy_commander_dead": "object",
 		"battle_enemy_commander_dead": {
-			"__desc__modify": "修改值",
+			"__desc__modify": "影响值",
 			"__type__modify": "number",
 			"modify": 20
 		},
 		"__desc__limit_most_powerful_minds": "最强大心态的限制数量",
 		"__type__limit_most_powerful_minds": "number",
 		"limit_most_powerful_minds": 7,
-		"__desc__fatigue_from_inspection": "检查疲劳的心态修改",
+		"__desc__fatigue_from_inspection": "疲于应付视察的心态影响",
 		"__type__fatigue_from_inspection": "object",
 		"fatigue_from_inspection": {
-			"__desc__modify": "修改值",
+			"__desc__modify": "影响值",
 			"__type__modify": "number",
 			"modify": -5
 		},
-		"__desc__fatigue_from_work": "工作疲劳的心态修改",
+		"__desc__fatigue_from_work": "疲于工作的心态影响",
 		"__type__fatigue_from_work": "object",
 		"fatigue_from_work": {
-			"__desc__modify": "修改值",
+			"__desc__modify": "影响值",
 			"__type__modify": "number",
 			"modify": -10,
 			"__desc__duration": "持续时间（小时）",
@@ -784,14 +784,14 @@ const orgData = {
 		"__desc__mind_new_town_resident_duration_h": "新镇居民心态持续时间（小时）",
 		"__type__mind_new_town_resident_duration_h": "number",
 		"mind_new_town_resident_duration_h": 120,
-		"__desc__battle_enemy_soldier_retreat": "敌方士兵撤退时的心态修改",
+		"__desc__battle_enemy_soldier_retreat": "敌方士兵撤退时的心态影响",
 		"__type__battle_enemy_soldier_retreat": "object",
 		"battle_enemy_soldier_retreat": {
-			"__desc__modify": "修改值",
+			"__desc__modify": "影响值",
 			"__type__modify": "number",
 			"modify": 6
 		},
-		"__desc__fanatic_modify": "狂热修改",
+		"__desc__fanatic_modify": "狂热信徒影响",
 		"__type__fanatic_modify": "number",
 		"fanatic_modify": 15,
 		"__desc__separated_living_place_strength": "分开居住地的强度",
@@ -801,7 +801,7 @@ const orgData = {
 		"__type__battle_commander_bonus_factor": "number",
 		"battle_commander_bonus_factor": 2
 	},
-	"__desc__camera": "相机设置",
+	"__desc__camera": "相机设置（不常用）",
 	"__type__camera": "object",
 	"camera": {
 		"__desc__smooth_move_speed": "平滑移动速度",
